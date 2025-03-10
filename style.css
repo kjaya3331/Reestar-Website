@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  padding: 50px;
+}
+
+/* Section-one */
+
+.section-one {
+  background-color: black;
+  height: 100px;
+}
+
+.section-one__title {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.section-one__desc {
+  color: white;
+  text-align: center;
+}
+
+.section-two__card1 {
+  background-color: black;
+  height: 350px;
+  width: 210px;
+  margin-top: 10px;
+  margin-left: 270px;
+}
+
+/* Section-two */
+
+.section-two__card1,
+.section-two__card2,
+.section-two__card3,
+.section-two__card4 {
+  background-color: white;
+  display: inline-block;
+  width: 200px;
+  height: 350px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 5px;
+}
+
+.section-two__card1 img,
+.section-two__card2 img,
+.section-two__card3 img,
+.section-two__card4 img {
+  padding: 2px;
+  width: 190px;
+  height: 250px;
+  margin-top: 2px;
+}
+
+.section-two__card1 p,
+.section-two__card2 p,
+.section-two__card3 p,
+.section-two__card4 p {
+  color: black;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.section-two__card1 h6,
+.section-two__card2 h6,
+.section-two__card3 h6,
+.section-two__card4 h6 {
+  color: black;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.section-two__card1 button,
+.section-two__card2 button,
+.section-two__card3 button,
+.section-two__card4 button {
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+/* Section-three */
+
+.section-three {
+  background-color: black;
+  height: 200px;
+}
+
+.section-three__contact {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.section-three {
+  text-align: center;
+  color: white;
+}
+
+.section-three__submit {
+  background-color: yellow;
+  width: 400px;
+  height: 30px;
+  margin-top: 5px;
+}
